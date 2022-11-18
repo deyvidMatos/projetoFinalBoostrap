@@ -1,0 +1,371 @@
+// pagina index.
+* {
+    color: white;
+}
+
+.container00 {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.container01 {
+    background-image: url(../images/home/01.jpg);
+
+    .navbarPc {
+        width: 240px;
+    }
+
+    nav div a p:hover {
+        color: $CorHoverLinks;
+    }
+
+    .arrowDown {
+        width: 100px;
+    }
+
+    .btn {
+        padding: $paddingButton;
+        border: 2px solid;
+    }
+
+    #aos01 {
+        margin-top: 40px;
+        padding: 120px 20px 12px;
+    }
+}
+
+.container02 {
+    background-image: url(../images/home/03.jpg);
+
+    .arrowDown {
+        width: 100px;
+    }
+
+    .btn {
+        padding: $paddingButton;
+        border: 2px solid;
+    }
+
+    #aos02 {
+        padding-top: 120px;
+    }
+}
+
+.container03 {
+    background-image: url(../images/home/02.gif);
+
+    .arrowDown {
+        width: 100px;
+    }
+
+    .btn {
+        padding: $paddingButton;
+        border: 2px solid;
+    }
+
+    #aos02 {
+        padding-top: 120px;
+    }
+}
+
+.container04 {
+    background-image: url(../images/home/04.jpg);
+
+    .arrowDown {
+        width: 100px;
+    }
+
+    .btn {
+        padding: $paddingButton;
+        border: 2px solid;
+    }
+
+    #aos02 {
+        padding-top: 120px;
+    }
+}
+
+.footer {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+// pagina falcon 9
+.container05 {
+    background-image: url(../images/falcon9/01.jpg);
+
+    .navbarPc {
+        width: 240px;
+    }
+
+    nav div a p:hover {
+        color: $CorHoverLinks;
+    }
+
+    .arrowDown {
+        width: 100px;
+    }
+
+    .btn {
+        padding: $paddingButton;
+        border: 2px solid;
+    }
+
+    #aos01 {
+        margin-top: 40px;
+        padding: 120px 20px 12px;
+    }
+}
+
+.numbers {
+    height: 500px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container06 {
+    background-image: url(../images/falcon9/02.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #aos02 {
+        padding-top: 120px;
+    }
+
+    p {
+        font-size: 1.7rem;
+    }
+}
+
+.container00-1 {
+    background-image: url(../images/falcon9/03.jpg);
+    padding: $paddingCarousel;
+}
+
+.container00-2 {
+    background-image: url(../images/falcon9/04.jpg);
+    padding: $paddingCarousel;
+}
+
+.container00-3 {
+    background-image: url(../images/falcon9/05.jpg);
+    padding: $paddingCarousel;
+}
+
+.container00-4 {
+    background-image: url(../images/falcon9/06.jpg);
+    padding: $paddingCarousel;
+}
+
+.container00-5 {
+    background-image: url(../images/falcon9/07.jpg);
+    padding: $paddingCarousel;
+}
+
+.container07 {
+    background-image: url(../images/falcon9/08.jpg);
+
+    div {
+        padding: $paddingCarousel;
+    }
+}
+
+.container01-1 {
+    background-image: url(../images/falcon9/09.jpg);
+
+    p {
+        background-color: black;
+    }
+}
+
+.container01-2 {
+    background-image: url(../images/falcon9/10.jpg);
+
+    p {
+        background-color: black;
+    }
+}
+
+.container01-3 {
+    background-image: url(../images/falcon9/11.jpg);
+
+    p {
+        background-color: black;
+    }
+}
+
+.container01-4 {
+    background-image: url(../images/falcon9/12.jpg);
+
+    p {
+        background-color: black;
+    }
+}
+
+.container01-5 {
+    background-image: url(../images/falcon9/13.jpg);
+
+    p {
+        background-color: black;
+    }
+}
+
+.container01-6 {
+    background-image: url(../images/falcon9/14.jpg);
+
+    p {
+        background-color: black;
+    }
+}
+
+.container08 {
+    height: 70vh;
+    background-color: black;
+    padding-top: 200px;
+
+    div button {
+        padding: $paddingButton;
+        margin-top: 75px;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(219, 219, 219);
+    }
+}
+
+// human space fly
+.container09 {
+    background-image: url(../images/humanFlight/01.jpg);
+
+    .navbarPc {
+        width: 240px;
+    }
+
+    nav div a p:hover {
+        color: $CorHoverLinks;
+    }
+
+    .arrowDown {
+        width: 200px;
+    }
+
+    .btn {
+        padding: $paddingButton;
+        border: 2px solid;
+    }
+
+    #aos01 {
+        margin-top: 40px;
+        padding: 120px 20px 12px;
+    }
+}
+
+.container10 {
+    background-color: black;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.container11 {
+    background-image: url(../images/humanFlight/02.jpg);
+    display: flex;
+    align-items: center;
+
+    .h5 {
+        font-weight: lighter;
+    }
+
+    .btn {
+        padding: $paddingButton;
+        border: 2px solid;
+    }
+
+    .container {
+        padding-left: 40%;
+
+        .display-3 {
+            font-weight: bolder;
+        }
+    }
+}
+
+.container12 {
+    background-image: url(../images/humanFlight/03.jpg);
+    display: flex;
+    align-items: center;
+
+    .h5 {
+        font-weight: lighter;
+    }
+
+    .btn {
+        padding: $paddingButton;
+        border: 2px solid;
+    }
+
+    .container .display-3 {
+        font-weight: bolder;
+    }
+}
+
+.container13 {
+    background-image: url(../images/humanFlight/04.jpg);
+    display: flex;
+    align-items: center;
+
+    .h5 {
+        font-weight: lighter;
+    }
+
+    .btn {
+        padding: $paddingButton;
+        border: 2px solid;
+    }
+
+    .container {
+        padding-left: 35%;
+
+        .display-3 {
+            font-weight: bolder;
+        }
+    }
+}
+
+.container14 {
+    background-image: url(../images/humanFlight/05.jpg);
+    display: flex;
+    align-items: center;
+
+    .h5 {
+        font-weight: lighter;
+    }
+
+    .btn {
+        padding: $paddingButton;
+        border: 2px solid;
+    }
+
+    .container .display-3 {
+        font-weight: bolder;
+    }
+}
